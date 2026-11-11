@@ -1,0 +1,27 @@
+body {
+font-family: "Playfair Display", serif;
+margin: 0;
+padding: 10px;
+}
+form, .grid {
+display:grid; 
+gap: 12px;
+margin:0cm 16px 0;
+}
+
+.card{
+  border: 1px solid #ad6a6a;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.grid{
+  grid-template-columns: 1fr;
+}
+
+
+@media (min-width: 700px) {
+   .grid {
+    grid-template-columns:  repeat(3, 1fr);
+  }
+ }
