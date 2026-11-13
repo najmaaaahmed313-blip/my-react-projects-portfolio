@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav aria-label="Main navigation">
-      <h>Najma's react portfolio</h>
+      <h1>Najma's react portfolio</h1>
     </nav>
   )
 }
